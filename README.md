@@ -1,4 +1,6 @@
 # Sturctures of Programming Languages Project
+Dylan Sarell
+4/28/23
 
 In my Project I decided to compare C++ and Python. 
 
@@ -13,3 +15,5 @@ Python: In Python there is a Garbage Collector which automatically recycles memo
 C++: You always have to Specify what type is the variable in Declarations in C++. 
 
 Python: You don't have to specify the type of the variable in the Declartions in Python. 
+
+# Speed:
