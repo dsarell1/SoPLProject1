@@ -7,7 +7,7 @@ In my Project I decided to compare C++ and Python. Both use Procedural and Objec
 
 I made simple classes in C++ and Python to showcase differences. I made a simple coordinate or point Class, which is just that it can have a order pair of numbers of the form (x, y) or (x, y, z) for 2-Dimensional and 3-Dimensional Space. 
 
-# Object Oriented Programming
+# Object Oriented Programming Implemntation
 **C++:** In C++ Object Oriented Programming is a lot more invloved and bit harder to understand. It has a private and Public sections which divides the data of the class which can be used inside and outside the class. My Coordinates Class also needs more than 1 constructor to initialize coordinates depending on the input. I have a default constructor, a 2 interger and 3 interger input constructor. A Dyanamic object also needs 4 important functions: Swap, Overloaded Asignment, Copy Constructor, and Destructor.
 
 **Python:** In Python Object Oriented Programming is more easier to learn. Only 1 Constructor is needed and Allowed that could lead to more cleaner code. You give it the amount of aurguments it was given in it's declartion. Dynamic Memory requires no extra functions in the class for Python.
