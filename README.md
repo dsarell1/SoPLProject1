@@ -12,7 +12,7 @@ C++: In C++ there is not Garbage Collection or a Garbage collector. The Programm
 
 For my Coordinates class in C++ I have to Include a Destructor for deallocating the Dynamic Memory usage, in order to recycle or reuse that memory. 
 
-Python: In Python there is a Garbage Collector which automatically recycles memory for you. It Deallocates the dynamic memory too. Python also uses an Interpreter, which allows the file to be directly executed instead of creating an executable from compilation. 
+Python: In Python there is a Garbage Collector which automatically recycles memory for you. It Deallocates the dynamic memory too. Python also uses an Interpreter, which allows the file to be directly executed instead of creating an executable from compilation. So it can catch Runtime Variable Changes.
 
 For my Point Class in Python 
 
