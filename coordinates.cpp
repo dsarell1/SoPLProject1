@@ -3,7 +3,7 @@
 // 
 
 #include <iostream>
-#include "project.hpp"
+#include "coordinates.hpp"
 
 using std::cout; using std::cin; using std::endl;
 

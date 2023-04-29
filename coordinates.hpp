@@ -2,8 +2,8 @@
 // Dylan Sarell
 // 4/28/23
 
-#ifndef PROJECT_HPP
-#define PROJECT_HPP
+#ifndef coordinates_HPP
+#define coordinates_HPP
 
 #include<iostream>
 
