@@ -31,3 +31,6 @@ C++: Uses Compilation which is Faster than using a Interpreter. It also uses Sta
 Python: Uses an Interpreter which is slower than Compilation due to the fact that it is Dynamic typing. Dynamic typing does types checks at Runtime, during Execution. Dynamically Typed languages are not required to state the type of the Variable. 
 
 # Parameter Passing
+C++: You get to choose the Specific type of Parameter passing mechanism. C++ allows Call-by-Value, Call-by-Value-Result and Call-by-Reference; You can choose from the 3 types for passing variables and objects to functions. 
+
+Python: Python automatically decides what type of Parameter passing mechanism you are to use when passing specific types of variables. For simpler variable types like intergers, Strings, floats, etc you use Call-by-Value or Call-by-Value-Result.
