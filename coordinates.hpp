@@ -8,6 +8,9 @@
 // Destructor, swap, and Overloaded assignment to take full advantage
 // of the Dynamic Memory Allocation. 
 
+// There are also public and Private keywords to Seperate the varaibles
+// (Atributes) and the methods (functions).
+
 
 #ifndef coordinates_HPP
 #define coordinates_HPP
