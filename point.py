@@ -6,6 +6,9 @@
 # Python can really only have 1 constructor in it's classes.
 # but it takes the amount of arguments and can make it 2 different objects.
 
+# There are only functions in the Point Class and any "Private" variables 
+# are accesed by self. 
+
 class Point:
     # Constructor has both 2-Dimensional and 3-Dimensional 
     # "Constructors" Depends on Amount of Agruments it is given.
