@@ -17,3 +17,6 @@ C++: You always have to Specify what type is the variable in Declarations in C++
 Python: You don't have to specify the type of the variable in the Declartions in Python. 
 
 # Speed:
+
+
+# Parameter Passing
