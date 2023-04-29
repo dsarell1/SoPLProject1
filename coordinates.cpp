@@ -2,6 +2,8 @@
 // 4/28/23
 // Function Definitions for Coordinates Class
 
+// For all the functions Return types and parameter types are always stated.
+
 #include <iostream>
 #include "coordinates.hpp"
 
@@ -88,8 +90,9 @@ std::ostream& operator<< (std::ostream& output, coordinates& rhs) {
 // add operator
 coordinates& coordinates::operator+ (const coordinates& rhs) {
     coordinates result;
-    result.dimension = rhs.dimension;
-    for (int i = 0; i < dimension; i++) {
+    result.dimension = rhs.dimension + 1;
+    result.point = new int[result.dimension];
+    for (int i = 0; i < result.dimension; i++) {
         result.point[i] = rhs.point[i] + point[i];
     }
     swap(result);

@@ -8,7 +8,7 @@
 
 class Point:
     # Constructor has both 2-Dimensional and 3-Dimensional 
-    # "Constructors" Depends on Amount of Agruments
+    # "Constructors" Depends on Amount of Agruments it is given.
     def __init__(self, *args):
         if len(args) == 2:
             self.x = args[0]

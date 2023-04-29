@@ -25,18 +25,17 @@ int main() {
     coordinates point2(num1, num2);
     cout << "Your 2-D Point is: " << point2 << endl;
 
-    coordinates point3(-1, 7);
+    // I add 2 Coordinates of dimension 2 and 3 together and you get a 
+    // 3rd Dimension Coordinate Because it assumes that your z-coordinate 
+    // for your 2-D Coordinate is 0. This is done using Dynamic Memory and
+    // Overloading the Addition and Assignment operator.
+
+    coordinates point3(-1, 7, 9);
     cout << "My point is: " << point3 << endl;
 
-    cout << "Adding My Point with yours: ";
+    cout << "Adding My Point with yours: " << endl;
     point3 = point3 + point2;
-    cout << point3 << endl;
-
-    cout << "Please enter z-coordinate: ";
-    cin >> num3;
-
-    coordinates point4(num1, num2, num3);
-    cout << "Your 3-D Point is: " << point4 << endl;
+    cout << "Your 3-D Point is: " << point3 << endl;
 
     return 0;
 }
